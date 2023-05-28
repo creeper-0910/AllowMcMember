@@ -1,0 +1,10 @@
+name: AllowMcMember
+version: '${project.version}'
+main: io.inagisaki.amm.allowmcmember.AllowMcMember
+api-version: 1.13
+depend: [DiscordSRV]
+commands:
+  amm:
+    description: Example
+    usage: /<command> reload
+    aliases: [allowmcmember]

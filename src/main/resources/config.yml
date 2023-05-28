@@ -1,0 +1,6 @@
+KickMessage: "Youtubeメンバーシップのレベルが不足しています。\n〇〇プランへの移行をお考えください。"
+linkMessage: "\n--- 接続するにはDiscordでの認証が必要です ---\nDiscordサーバーの「%s」に次のPINコードを送信してください:%s\nリンク方法: http://bit.ly/disc-link\n※PINコードは誰にも教えないでください。"
+AllowUser: [""]
+RestrictionDay: ["MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY","SUNDAY"]
+Hours: 0
+Minutes: 0
