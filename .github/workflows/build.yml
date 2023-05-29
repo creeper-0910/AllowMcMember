@@ -21,7 +21,7 @@ jobs:
           distribution: 'zulu'
           cache: 'maven'
       - name: Build with Maven
-        run: mvn -DpluginVersion=${plg_version} package
+        run: mvn clean install -DpluginVersion=${plg_version}
         env:
           plg_version: ${{ github.event.inputs.version }}
       - uses: rickstaa/action-create-tag@v1
