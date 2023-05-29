@@ -6,7 +6,7 @@
 
     <groupId>io.inagisaki.amm</groupId>
     <artifactId>AllowMcMember</artifactId>
-    <version>1.1-BETA</version>
+    <version>${pluginVersion}</version>
     <packaging>jar</packaging>
 
     <name>amm</name>
